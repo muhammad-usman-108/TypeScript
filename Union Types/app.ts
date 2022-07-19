@@ -4,7 +4,7 @@ function combine(input1: number | string, input2: number | string) {
         return input1 + input2;
     }
     else {
-        return input1.toString() + input2.toString();
+        return input1 + input2;
     }
 }
 
